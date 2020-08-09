@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body>
+    <div class="title">Online Quiz</div>
+    <div  class="container">
+        <div  class="question">Who is the father of computer?</div>
+        <label class="option"><input type="radio" name="question1" id="q1-opt1" >Sam Rob</input></label>
+        <label class="option"><input type="radio" name="question1" id="q1-opt2" >Charles Babbage</input></label>
+        <label class="option"><input type="radio" name="question1" id="q1-opt3" >Nikoles Will</input></label>
+        <label class="option"><input type="radio" name="question1"  id="q1-opt4">None of these</input></label>
+    </div>
+    <div  class="container">
+        <div  class="question">What is 22 + 5?</div>
+        <label class="option"><input type="radio" name="question2" id="q2-opt1" >29</input></label>
+        <label class="option"><input type="radio" name="question2" id="q2-opt2" >33</input></label>
+        <label class="option"><input type="radio" name="question2"  id="q2-opt3" >27</input></label>
+        <label class="option"><input type="radio" name="question2"   id="q2-opt4">26</input></label>
+    </div>
+    <div  class="container">
+        <div  class="question">Name of current Prime Minister of Pakistan is?</div>
+        <label class="option"><input type="radio" name="question3"  id="q3-opt1">Imran Khan</input></label>
+        <label class="option"><input type="radio" name="question3"  id="q3-opt2">Nawaz Sharif</input></label>
+        <label class="option"><input type="radio" name="question3" id="q3-opt3">Modhi</input></label>
+        <label class="option"><input type="radio" name="question3" id="q3-opt4">Donald Trump</input></label>
+    </div>
+    <div  class="container">
+        <div  class="question">What comes after s?</div>
+        <label class="option"><input type="radio" name="question4"  id="q4-opt1" >p</input></label>
+        <label class="option"><input type="radio" name="question4"  id="q4-opt2" >r</input></label>
+        <label class="option"><input type="radio" name="question4"  id="q4-opt3">u</input></label>
+        <label class="option"><input type="radio" name="question4"  id="q4-opt4" >t</input></label>
+    </div>
+    <button class="resultBtn" onclick="checkQuestion()">Submit Quiz</button>
+    
+
+
+    <script src="app.js"></script>
+</body>   
+</html>
